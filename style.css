@@ -1,0 +1,112 @@
+body {
+  background: rgb(192, 192, 192);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+}
+
+.platform {
+  margin: 250px auto;
+  width: 1000px;
+  height: 600px;
+  border: solid rgb(66, 66, 66) 10px;
+  background: rgb(124, 124, 124);
+  border-radius: 20px;
+  position: relative;
+}
+
+button {
+  width: 160px;
+  height: 160px;
+  background: rgb(228, 228, 228);
+  border: solid rgb(73, 73, 73) 5px;
+  border-radius: 50%;
+  position: absolute;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+button:hover {
+  background: rgb(189, 189, 189);
+  transition: ease-in-out 0.1s;
+}
+
+#crash-cymbal,
+#ride-cymbal,
+#hi-hats {
+  background: radial-gradient(rgb(216, 144, 10) 0%, rgb(247, 232, 149) 100%);
+  border: solid black 2.5px;
+  z-index: 3;
+}
+
+#crash-cymbal:hover,
+#ride-cymbal:hover,
+#hi-hats:hover {
+  background: radial-gradient(rgb(216, 144, 10), rgb(252, 244, 191));
+  transition: ease-in-out 0.2s;
+}
+
+#bass-drum {
+  background: rgb(122, 61, 61);
+  border-radius: 5px;
+  height: 130px;
+  width: 220px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+#bass-drum:hover {
+  background: rgb(107, 53, 53);
+  transition: ease-in-out 0.1s;
+}
+
+#crash-cymbal {
+  left: 25%;
+  top: 40%;
+  transform: translate(0%, -50%);
+}
+#ride-cymbal {
+  width: 185px;
+  height: 185px;
+  left: 60%;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+#snare-drum {
+  width: 140px;
+  height: 140px;
+  left: 30%;
+  top: 55%;
+  z-index: 2;
+}
+
+#high-tom {
+  width: 105px;
+  height: 105px;
+  left: 38%;
+  top: 40%;
+  z-index: 2;
+}
+
+#mid-tom {
+  width: 120px;
+  height: 120px;
+  left: 51%;
+  top: 42%;
+  z-index: 2;
+}
+
+#hi-hats {
+  width: 120px;
+  height: 120px;
+  left: 21%;
+  top: 55%;
+}
+
+#low-tom {
+  width: 145px;
+  height: 145px;
+  left: 59%;
+  top: 59%;
+  z-index: 2;
+}
